@@ -1,7 +1,9 @@
 [gd_scene load_steps=4 format=3 uid="uid://dv8v2pdfln23e"]
 
 [ext_resource type="Script" path="res://MiljøaktivistMovement.gd" id="1_qx00b"]
-[ext_resource type="Texture2D" uid="uid://6cl4sx4ueq3a" path="res://kenney_tower-defense-top-down/Vector/towerDefense_vector.svg" id="2_fv850"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ikbwd"]
+load_path = "res://.godot/imported/towerDefense_vector.svg-3e72f481eba75a7543da44db5c5843d4.ctex"
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0l1uj"]
 radius = 104.0
@@ -14,7 +16,7 @@ script = ExtResource("1_qx00b")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 position = Vector2(2, -2)
-texture = ExtResource("2_fv850")
+texture = SubResource("CompressedTexture2D_ikbwd")
 region_enabled = true
 region_rect = Rect2(9328.52, 6276.83, 388.349, 346.136)
 
