@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://cc2vg3m85a3ua"]
+[gd_scene load_steps=4 format=3 uid="uid://bc5bl8nob2s53"]
 
-[ext_resource type="Texture2D" uid="uid://c7fbyyh8mtscf" path="res://guard-placeholder.png" id="1_6w067"]
+[ext_resource type="Texture2D" uid="uid://c7fbyyh8mtscf" path="res://Bilder/guard-placeholder.png" id="1_6w067"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6xmn7"]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dv8v2pdfln23e"]
 
-[ext_resource type="Script" path="res://MiljøaktivistMovement.gd" id="1_qx00b"]
+[ext_resource type="Script" path="res://Script/MiljøaktivistMovement.gd" id="1_2ddt1"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ikbwd"]
 load_path = "res://.godot/imported/towerDefense_vector.svg-3e72f481eba75a7543da44db5c5843d4.ctex"
@@ -12,7 +12,7 @@ height = 268.0
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-script = ExtResource("1_qx00b")
+script = ExtResource("1_2ddt1")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 position = Vector2(2, -2)

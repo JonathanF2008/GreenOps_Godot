@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ck11fnko0idv"
-path="res://.godot/imported/Placeholder for proskekt.jpeg-59323674298088d6adb66289ea535104.ctex"
+uid="uid://bety068n13lr2"
+path="res://.godot/imported/icon.svg-fe932620243664ed46faa4f04096744e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Placeholder for proskekt.jpeg"
-dest_files=["res://.godot/imported/Placeholder for proskekt.jpeg-59323674298088d6adb66289ea535104.ctex"]
+source_file="res://Bilder/icon.svg"
+dest_files=["res://.godot/imported/icon.svg-fe932620243664ed46faa4f04096744e.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false
