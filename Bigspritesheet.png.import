@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmycr0emc2ib4"
-path="res://.godot/imported/Placeholder_for_proskekt-removebg-preview.png-6fb159d1ac95e89928d28652deea19e3.ctex"
+uid="uid://dc4qk7ysvyt7l"
+path="res://.godot/imported/Bigspritesheet.png-e8c7c1a4e2b7c3cb0cba26f824f292c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Placeholder_for_proskekt-removebg-preview.png"
-dest_files=["res://.godot/imported/Placeholder_for_proskekt-removebg-preview.png-6fb159d1ac95e89928d28652deea19e3.ctex"]
+source_file="res://Bigspritesheet.png"
+dest_files=["res://.godot/imported/Bigspritesheet.png-e8c7c1a4e2b7c3cb0cba26f824f292c9.ctex"]
 
 [params]
 

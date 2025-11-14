@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmycr0emc2ib4"
-path="res://.godot/imported/Placeholder_for_proskekt-removebg-preview.png-6fb159d1ac95e89928d28652deea19e3.ctex"
+uid="uid://de2ygg5ypihgj"
+path="res://.godot/imported/terrainTiles_retina.png-ad9ddbf39d3e3a7f424592c322b5bd1c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Placeholder_for_proskekt-removebg-preview.png"
-dest_files=["res://.godot/imported/Placeholder_for_proskekt-removebg-preview.png-6fb159d1ac95e89928d28652deea19e3.ctex"]
+source_file="res://terrainTiles_retina.png"
+dest_files=["res://.godot/imported/terrainTiles_retina.png-ad9ddbf39d3e3a7f424592c322b5bd1c.ctex"]
 
 [params]
 
