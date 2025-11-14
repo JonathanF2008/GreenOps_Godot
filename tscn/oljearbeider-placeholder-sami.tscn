@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bc5bl8nob2s53"]
 
-[ext_resource type="Texture2D" uid="uid://c7fbyyh8mtscf" path="res://Bilder/guard-placeholder.png" id="1_6w067"]
+[ext_resource type="Texture2D" uid="uid://c7fbyyh8mtscf" path="res://Bilder/guard-placeholder.png" id="1_wqyg7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6xmn7"]
 
@@ -12,7 +12,7 @@
 shape = SubResource("CapsuleShape2D_6xmn7")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_6w067")
+texture = ExtResource("1_wqyg7")
 region_enabled = true
 region_rect = Rect2(13, 0, 130, 239)
 
