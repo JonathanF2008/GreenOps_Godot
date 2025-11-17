@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://dl0n1ytdu28r3"]
+[gd_scene load_steps=3 format=3 uid="uid://cmgdjojkbywn8"]
 
 [ext_resource type="Script" path="res://Script/bulletMiljøaktivist.gd" id="1_hbh1x"]
 [ext_resource type="Texture2D" uid="uid://4thgbpr0jubd" path="res://Bilder/Bullet-removebg-preview.png" id="2_wny3x"]
