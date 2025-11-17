@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://nnyf6x8nqfm2"]
+
+[ext_resource type="Script" path="res://Script/enemy.gd" id="1_7en8m"]
+[ext_resource type="Texture2D" uid="uid://cv6olkcho4045" path="res://Bilder/oljeworker-placeholder.png" id="2_4hqcm"]
+[ext_resource type="PackedScene" uid="uid://dv8v2pdfln23e" path="res://tscn/Miljøaktivist.tscn" id="3_5cuxn"]
+
+[node name="Enemy" type="Node2D"]
+script = ExtResource("1_7en8m")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+scale = Vector2(10, 10)
+target_position = Vector2(21, 0)
+collide_with_areas = true
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.4
+
+[node name="BulletSpawn" type="Marker2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_4hqcm")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Node2D" parent="." instance=ExtResource("3_5cuxn")]
+position = Vector2(388, 0)
