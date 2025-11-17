@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bx31cmve4a1p2"]
 
 [ext_resource type="Script" path="res://Script/benjamin_ai.gd" id="1_86fhn"]
-[ext_resource type="Texture2D" path="res://Bilder/npc-placeholder-benjamin.png" id="1_tfswj"]
+[ext_resource type="Texture2D" uid="uid://b34p5s41b7q7x" path="res://Bilder/npc-placeholder-b.png" id="2_2jw40"]
 [ext_resource type="Script" path="res://Script/special_collision.gd" id="2_xtohm"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_t7h7i"]
@@ -15,7 +15,7 @@ shape = SubResource("CircleShape2D_t7h7i")
 [node name="Npc-placeholder-benjamin" type="Sprite2D" parent="."]
 position = Vector2(40, 16)
 rotation = 4.71239
-texture = ExtResource("1_tfswj")
+texture = ExtResource("2_2jw40")
 region_enabled = true
 region_rect = Rect2(122.218, 81.4932, 246.893, 356.046)
 
