@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://bx31cmve4a1p2"]
+
+[ext_resource type="Script" path="res://Script/benjamin_ai.gd" id="1_86fhn"]
+[ext_resource type="Texture2D" path="res://Bilder/npc-placeholder-benjamin.png" id="1_tfswj"]
+[ext_resource type="Script" path="res://Script/special_collision.gd" id="2_xtohm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_t7h7i"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_86fhn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_t7h7i")
+
+[node name="Npc-placeholder-benjamin" type="Sprite2D" parent="."]
+position = Vector2(40, 16)
+rotation = 4.71239
+texture = ExtResource("1_tfswj")
+region_enabled = true
+region_rect = Rect2(122.218, 81.4932, 246.893, 356.046)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="specialCollision" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(200, 0)
+polygon = PackedVector2Array(-200, 0, 384, -320, 408, -256, 424, -192, 432, -128, 440, -64, 440, 64, 432, 128, 424, 192, 408, 256, 384, 320)
+script = ExtResource("2_xtohm")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

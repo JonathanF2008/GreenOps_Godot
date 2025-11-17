@@ -3,7 +3,6 @@
 [ext_resource type="Script" path="res://Script/MiljøaktivistMovement.gd" id="1_2ddt1"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ikbwd"]
-load_path = "res://.godot/imported/towerDefense_vector.svg-3e72f481eba75a7543da44db5c5843d4.ctex"
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0l1uj"]
 radius = 104.0
