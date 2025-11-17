@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=4 uid="uid://mg6afon1i6wc"]
+[gd_scene load_steps=9 format=4 uid="uid://mg6afon1i6wc"]
 
 [ext_resource type="Texture2D" uid="uid://de2ygg5ypihgj" path="res://terrainTiles_retina.png" id="1_orqbs"]
+[ext_resource type="PackedScene" uid="uid://ci0qw2w6r47i4" path="res://barrel_test.tscn" id="2_xjh5k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xjh5k"]
 texture = ExtResource("1_orqbs")
@@ -83,3 +84,11 @@ shape = SubResource("ConvexPolygonShape2D_psl6d")
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
 position = Vector2(503, 319.5)
 shape = SubResource("RectangleShape2D_qeq5i")
+
+[node name="Barrel" parent="." instance=ExtResource("2_xjh5k")]
+position = Vector2(319, 228)
+scale = Vector2(0.47, 0.47)
+
+[node name="Barrel2" parent="." instance=ExtResource("2_xjh5k")]
+position = Vector2(275, 153)
+scale = Vector2(0.38, 0.38)
