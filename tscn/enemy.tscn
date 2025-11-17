@@ -6,7 +6,10 @@
 
 [node name="Enemy" type="Node2D"]
 script = ExtResource("1_7en8m")
+<<<<<<< HEAD
 player_path = NodePath("Node2D")
+=======
+>>>>>>> main
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 scale = Vector2(10, 10)
@@ -25,4 +28,7 @@ texture = ExtResource("2_4hqcm")
 
 [node name="Node2D" parent="." instance=ExtResource("3_5cuxn")]
 position = Vector2(388, 0)
+<<<<<<< HEAD
 script = null
+=======
+>>>>>>> main
