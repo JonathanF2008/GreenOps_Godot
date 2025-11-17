@@ -5,12 +5,51 @@ extends CharacterBody2D
 
 var target_position: Vector2
 var moving := false
+var selected := false
+
+@onready var outline = $"Outline" # Sprite eller Texture som viser sirkel
+
 
 func _ready():
 	target_position = global_position
+	outline.visible = false
 
 
+# -------------------------------------------------
+# Valg av karakter
+# -------------------------------------------------
+func set_selected(value: bool):
+	selected = value
+	outline.visible = value
+
+
+# Trigger når spilleren klikker PÅ karakteren
+func _input_event(viewport, event, shape_idx):
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_RIGHT:
+		get_tree().root.call_deferred("emit_signal", "player_selected", self)
+
+
+# -------------------------------------------------
+# Input for bevegelse (kun aktiv spiller)
+# -------------------------------------------------
+func _input(event):
+	if not selected:
+		return
+
+	# Venstre museknapp = bevegelse
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
+		target_position = get_global_mouse_position()
+		moving = true
+
+
+# -------------------------------------------------
+# Bevegelse
+# -------------------------------------------------
 func _physics_process(delta):
+	# Bare spilleren som er valgt skal reagere på input
+	if not selected:
+		return
+
 	look_at(get_global_mouse_position())
 
 	if moving:
@@ -25,9 +64,3 @@ func _physics_process(delta):
 		velocity = Vector2.ZERO
 
 	move_and_slide()
-
-
-func _input(event):
-	if Input.is_action_just_pressed("move_click"): 
-		target_position = get_global_mouse_position()
-		moving = true

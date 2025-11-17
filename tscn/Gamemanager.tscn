@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://wokfcvvtmwei"]
+
+[ext_resource type="Script" path="res://Script/gamemanager.gd" id="1_bi3nd"]
+[ext_resource type="PackedScene" uid="uid://dv8v2pdfln23e" path="res://tscn/Miljøaktivist.tscn" id="1_tw7iq"]
+
+[node name="GameManager" type="Node2D"]
+script = ExtResource("1_bi3nd")
+
+[node name="Player1" parent="." instance=ExtResource("1_tw7iq")]
+position = Vector2(324, 478)
+
+[node name="Player2" parent="." instance=ExtResource("1_tw7iq")]
+position = Vector2(-226, 438)
+
+[node name="Player3" parent="." instance=ExtResource("1_tw7iq")]
+position = Vector2(-428, -16)
+
+[node name="Player4" parent="." instance=ExtResource("1_tw7iq")]
+position = Vector2(368, -14)
