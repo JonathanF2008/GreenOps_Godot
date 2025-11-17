@@ -11,10 +11,8 @@ func _ready():
 
 
 func _physics_process(delta):
-	# --- ROTER SPILLEREN MOT MUSEN HELE TIDEN ---
 	look_at(get_global_mouse_position())
 
-	# --- BEVEGELSE ---
 	if moving:
 		var direction = target_position - global_position
 
@@ -30,6 +28,6 @@ func _physics_process(delta):
 
 
 func _input(event):
-	if Input.is_action_just_pressed("move_click"): # X eller LMB, samme hva du satte
+	if Input.is_action_just_pressed("move_click"): 
 		target_position = get_global_mouse_position()
 		moving = true
