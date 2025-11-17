@@ -38,3 +38,5 @@ func shoot():
 	bullet.global_position = bullet_spawn.global_position
 	bullet.rotation = rotation
 	get_tree().current_scene.add_child(bullet)
+	
+	
