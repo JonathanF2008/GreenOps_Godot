@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmgdjojkbywn8"]
+
+[ext_resource type="Script" path="res://Script/bulletMiljøaktivist.gd" id="1_hbh1x"]
+[ext_resource type="Texture2D" uid="uid://4thgbpr0jubd" path="res://Bilder/Bullet-removebg-preview.png" id="2_wny3x"]
+
+[node name="RigidBody2D" type="RigidBody2D"]
+script = ExtResource("1_hbh1x")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(28.25, 45.5)
+scale = Vector2(0.987544, 0.972222)
+texture = ExtResource("2_wny3x")
