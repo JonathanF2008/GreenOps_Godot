@@ -1,32 +1,35 @@
 extends CharacterBody2D
 
-@onready var special_collision: CollisionPolygon2D = $Area2D/specialCollision
+@onready var vision_triangle: CollisionPolygon2D = $Area2D/specialCollision
 
-const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+@export var shoot_cooldown: float = 1.0
+var can_shoot: bool = true
 
+func _ready():
+	pass
 
-func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
+func _physics_process(delta):
+	var player = get_node_or_null("player") # <-- path til spillernode
+	if player:
+		if is_player_in_vision(player):
+			shoot_at_player()
 
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
+func is_player_in_vision(player):
+	var local_player_position = vision_triangle.to_local(player.global_position)
+	return vision_triangle.polygon.collide_point(local_player_position)
 
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction := Input.get_axis("ui_left", "ui_right")
-	if direction:
-		velocity.x = direction * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
+func shoot_at_player():
+	if can_shoot:
+		# Insert your shooting code here
+		print("Shooting at the player!")  # Replace with your shooting logic
+		can_shoot = false
+		# Wait for cooldown before next shot
+		await get_tree().create_timer(shoot_cooldown).timeout
+		can_shoot = true
 
-	move_and_slide()
+# Optional: handle detection when player enters/exits the vision area
+# func _on_area_body_entered(body):
+#     pass
 
-
-func _on_area_2d_body_entered(body: Node2D) -> void:
-	if body.is_in_group("player"):
-		set_physics_process(false)
-		special_collision.change_color(Color(Color.RED, 0.3))
+# func _on_area_body_exited(body):
+#     pass

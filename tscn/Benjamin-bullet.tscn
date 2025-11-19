@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dnvifr4puckgp"]
+
+[ext_resource type="Script" path="res://Script/benjamin_bullet.gd" id="1_bfokm"]
+[ext_resource type="Texture2D" uid="uid://bdb55duvopesm" path="res://Bilder/bullet-placeholder-b.png" id="1_jakh2"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_abmyr"]
+height = 48.0
+
+[node name="RigidBody2D" type="RigidBody2D"]
+script = ExtResource("1_bfokm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_abmyr")
+
+[node name="Bullet-placeholder-b" type="Sprite2D" parent="."]
+scale = Vector2(0.148, 0.148)
+texture = ExtResource("1_jakh2")
