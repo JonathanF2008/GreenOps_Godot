@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7fbyyh8mtscf"
-path="res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"
+uid="uid://bie4yecfgrrl6"
+path="res://.godot/imported/Activist Male.png-14ebd044f7d8cab9a40f21a1f1bea953.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/guard-placeholder.png"
-dest_files=["res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"]
+source_file="res://bilder/Activist Male.png"
+dest_files=["res://.godot/imported/Activist Male.png-14ebd044f7d8cab9a40f21a1f1bea953.ctex"]
 
 [params]
 

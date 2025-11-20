@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7fbyyh8mtscf"
-path="res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"
+uid="uid://4thgbpr0jubd"
+path="res://.godot/imported/Bullet-removebg-preview.png-c4a960f42f6c37b9e1725e58c7a1e0f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/guard-placeholder.png"
-dest_files=["res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"]
+source_file="res://bilder/Bullet-removebg-preview.png"
+dest_files=["res://.godot/imported/Bullet-removebg-preview.png-c4a960f42f6c37b9e1725e58c7a1e0f0.ctex"]
 
 [params]
 

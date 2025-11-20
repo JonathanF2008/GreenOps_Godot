@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7fbyyh8mtscf"
-path="res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"
+uid="uid://cchrf2pdwytlo"
+path="res://.godot/imported/Oil Rig Exterior Tiles.png-398898914489a4447d28c6b930098e3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/guard-placeholder.png"
-dest_files=["res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"]
+source_file="res://bilder/Oil Rig Exterior Tiles.png"
+dest_files=["res://.godot/imported/Oil Rig Exterior Tiles.png-398898914489a4447d28c6b930098e3a.ctex"]
 
 [params]
 

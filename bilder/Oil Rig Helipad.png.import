@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7fbyyh8mtscf"
-path="res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"
+uid="uid://b4mj7gxf7bi32"
+path="res://.godot/imported/Oil Rig Helipad.png-41c4a6d77c49f6a361f923b697ae8084.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/guard-placeholder.png"
-dest_files=["res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"]
+source_file="res://bilder/Oil Rig Helipad.png"
+dest_files=["res://.godot/imported/Oil Rig Helipad.png-41c4a6d77c49f6a361f923b697ae8084.ctex"]
 
 [params]
 

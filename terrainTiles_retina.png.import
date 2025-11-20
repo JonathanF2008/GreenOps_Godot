@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7fbyyh8mtscf"
-path="res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"
+uid="uid://de2ygg5ypihgj"
+path="res://.godot/imported/terrainTiles_retina.png-ad9ddbf39d3e3a7f424592c322b5bd1c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/guard-placeholder.png"
-dest_files=["res://.godot/imported/guard-placeholder.png-3b93f5a058b564d71659c4c6d445d1fa.ctex"]
+source_file="res://terrainTiles_retina.png"
+dest_files=["res://.godot/imported/terrainTiles_retina.png-ad9ddbf39d3e3a7f424592c322b5bd1c.ctex"]
 
 [params]
 
