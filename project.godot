@@ -12,7 +12,7 @@ config_version=5
 
 config/name="GreenOps"
 run/main_scene="uid://630isg63uao4"
-config/features=PackedStringArray("4.5", "Forward Plus")
+config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://Bilder/icon.svg"
 
 [input]
