@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=4 uid="uid://dpq1yq762vc2a"]
+
+[ext_resource type="Texture2D" uid="uid://cv2hvp2kcj4wf" path="res://bilder/Mainscreen bakgrunn.png" id="1_ck73i"]
+[ext_resource type="Texture2D" uid="uid://behfgfr422t21" path="res://bilder/Menu Logo and Buttons.png" id="1_xcaed"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ck73i"]
+texture = ExtResource("1_xcaed")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+0:3/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_u1u32"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_ck73i")
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(574.00006, 325.00003)
+scale = Vector2(6.2650967, 6.360161)
+texture = ExtResource("1_ck73i")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(-97.36481, -59.27527)
+scale = Vector2(0.494, 0.494)
+tile_map_data = PackedByteArray("AAABAAEAAAAAAAEAAAACAAEAAAABAAEAAAADAAEAAAACAAEAAAAEAAEAAAACAAEAAAAFAAEAAAAAAAIAAAABAAIAAAABAAIAAAACAAIAAAACAAIAAAADAAIAAAAAAAMAAAABAAQAAAAAAAAAAAABAAUAAAABAAAAAAABAAYAAAACAAAAAAA=")
+tile_set = SubResource("TileSet_u1u32")
