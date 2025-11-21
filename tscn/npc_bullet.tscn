@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://sghve6y57qfy"]
+
+[ext_resource type="Texture2D" uid="uid://bwbu6gknt3aur" path="res://Bilder/Bullet.png" id="1_pwf2g"]
+[ext_resource type="Script" path="res://Script/npc_bullet.gd" id="1_xbqcf"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_08liu"]
+radius = 3.0
+height = 6.0
+
+[node name="npc_bullet" type="RigidBody2D"]
+script = ExtResource("1_xbqcf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_08liu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_pwf2g")
+region_enabled = true
+region_rect = Rect2(0, 12.1875, 31.09, 6.61243)

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://ctpqx5723wpo0"]
+
+[ext_resource type="PackedScene" uid="uid://y10x3ywf08sk" path="res://tscn/test.tscn" id="1_d1wvp"]
+[ext_resource type="PackedScene" uid="uid://ob2i53u2lf0k" path="res://tscn/npcbody.tscn" id="2_i2afp"]
+[ext_resource type="PackedScene" uid="uid://sghve6y57qfy" path="res://tscn/npc_bullet.tscn" id="3_dd0vh"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TestPlayer" parent="." instance=ExtResource("1_d1wvp")]
+position = Vector2(-3, -68)
+
+[node name="Npcbody" parent="." instance=ExtResource("2_i2afp")]
+
+[node name="RigidBody2D" parent="." instance=ExtResource("3_dd0vh")]
+position = Vector2(54, -19)
+
+[editable path="Npcbody"]
