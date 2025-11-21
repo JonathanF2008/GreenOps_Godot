@@ -1,5 +1,5 @@
 extends RigidBody2D
-var speed = 600
+var speed = 300
 func _ready():
 	look_at(get_global_mouse_position())
 
