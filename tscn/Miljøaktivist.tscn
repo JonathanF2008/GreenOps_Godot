@@ -24,12 +24,12 @@ position = Vector2(0, 1)
 shape = SubResource("CapsuleShape2D_0l1uj")
 
 [node name="VåpenMiljøaktivist" type="Node2D" parent="."]
-position = Vector2(2, -2)
+position = Vector2(5, -4)
 script = ExtResource("2_lymw3")
 
 [node name="SelveVåpenMiljøaktivist" type="Sprite2D" parent="VåpenMiljøaktivist"]
 z_index = -1
-position = Vector2(-1, 11)
+position = Vector2(0, 5)
 rotation = 1.6057
 scale = Vector2(0.0691882, 0.0760569)
 texture = ExtResource("3_r6gc5")

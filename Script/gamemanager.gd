@@ -1,25 +1,47 @@
-extends Node
+extends Node2D
 
-@export var characters: Array[Node] = []
-var current_player_index := 0
+var max_time = 1.0
+var time_left = 0.0
+var can_change = false
 
+enum {CHAR_1, CHAR_2, CHAR_3}
+var state
+
+# Called when the node enters the scene tree for the first time.
 func _ready():
-	activate_current_player()
+	time_left = max_time
+	state = CHAR_1
 
-func activate_current_player():
-	for character in characters:
-		character.hide()
-		character.set_process(false)
-		character.set_physics_process(false)
 
-	if current_player_index < characters.size():
-		var player = characters[current_player_index]
-		player.show()
-		player.set_process(true)
-		player.set_physics_process(true)
-	else:
-		print("Alle spillere er døde! Game over.")
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	if time_left > 0.0:
+		time_left -= delta
+		print(time_left)
+	elif time_left <= 0.0 and can_change == false:
+		print("Can now change characters")
+		can_change = true
+	
+	match state:
+		CHAR_1:
+			if Input.is_action_just_pressed("ui_accept") and can_change == true:
+				state = CHAR_2
+				print(state)
+				print("char 2 active")
+				reset_char_switch_delay()
+		CHAR_2:
+			if Input.is_action_just_pressed("ui_accept") and can_change == true:
+				state = CHAR_3
+				print(state)
+				print("char 3 active")
+				reset_char_switch_delay()
+		CHAR_3:
+			if Input.is_action_just_pressed("ui_accept") and can_change == true:
+				state = CHAR_1
+				print(state)
+				print("char 1 active")
+				reset_char_switch_delay()
 
-func on_player_death():
-	current_player_index += 1
-	activate_current_player()
+func reset_char_switch_delay():
+	time_left = max_time
+	can_change = false
