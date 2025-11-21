@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://ob2i53u2lf0k"]
+[gd_scene load_steps=6 format=3 uid="uid://c2t2mkrqcooax"]
 
 [ext_resource type="Script" path="res://Script/npcbody.gd" id="1_06ot4"]
 [ext_resource type="Texture2D" uid="uid://bnx60yqaksamn" path="res://Bilder/Enemy Workers.png" id="2_aigrp"]
