@@ -7,13 +7,13 @@
 script = ExtResource("1_bi3nd")
 
 [node name="Player1" parent="." instance=ExtResource("1_tw7iq")]
-position = Vector2(324, 478)
+position = Vector2(-2, 15)
 
 [node name="Player2" parent="." instance=ExtResource("1_tw7iq")]
-position = Vector2(-226, 438)
+position = Vector2(1, 87)
 
 [node name="Player3" parent="." instance=ExtResource("1_tw7iq")]
-position = Vector2(-428, -16)
+position = Vector2(-1, 155)
 
 [node name="Player4" parent="." instance=ExtResource("1_tw7iq")]
-position = Vector2(368, -14)
+position = Vector2(0, 224)

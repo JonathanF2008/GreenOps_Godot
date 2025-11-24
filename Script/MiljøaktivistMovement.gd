@@ -14,6 +14,9 @@ func _ready():
 	target_position = global_position
 	outline.visible = false
 
+var speed := 150.0
+@export var max_health := 100
+var health := max_health 
 
 # -------------------------------------------------
 # Valg av karakter
@@ -64,3 +67,13 @@ func _physics_process(delta):
 		velocity = Vector2.ZERO
 
 	move_and_slide()
+
+func take_damage(amount: int):
+	health -= amount
+	if health <= 0:
+		die()
+
+func die():
+	hide()
+	set_process(false)
+	set_physics_process(false)
