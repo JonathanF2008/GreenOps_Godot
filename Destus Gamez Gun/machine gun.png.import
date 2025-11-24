@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm6gn3w703mvq"
-path="res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"
+uid="uid://qp25k0id13t5"
+path="res://.godot/imported/machine gun.png-6ce33327f39f0068d0beac470c280b23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/Soverom.png"
-dest_files=["res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"]
+source_file="res://Destus Gamez Gun/machine gun.png"
+dest_files=["res://.godot/imported/machine gun.png-6ce33327f39f0068d0beac470c280b23.ctex"]
 
 [params]
 

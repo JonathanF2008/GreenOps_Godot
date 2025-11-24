@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm6gn3w703mvq"
-path="res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"
+uid="uid://vlvxqewv7a86"
+path="res://.godot/imported/Oil Rig Int and Ext Tiles.png-e84a33a44765dacbaea5bd89c3f95bd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/Soverom.png"
-dest_files=["res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"]
+source_file="res://Bilder/Oil Rig Int and Ext Tiles.png"
+dest_files=["res://.godot/imported/Oil Rig Int and Ext Tiles.png-e84a33a44765dacbaea5bd89c3f95bd9.ctex"]
 
 [params]
 

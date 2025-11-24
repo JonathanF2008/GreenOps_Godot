@@ -14,6 +14,7 @@ config/name="GreenOps"
 run/main_scene="uid://630isg63uao4"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://Bilder/icon.svg"
+<<<<<<<Updatedupstreamrun/main_scene="uid://630isg63uao4"
 
 [input]
 

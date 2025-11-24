@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm6gn3w703mvq"
-path="res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"
+uid="uid://doqa8cwc4w15b"
+path="res://.godot/imported/PikPng.com_top-down-png_3582649.png-3d12a3b382b82935e47bc44bee4c5ede.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/Soverom.png"
-dest_files=["res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"]
+source_file="res://PikPng.com_top-down-png_3582649.png"
+dest_files=["res://.godot/imported/PikPng.com_top-down-png_3582649.png-3d12a3b382b82935e47bc44bee4c5ede.ctex"]
 
 [params]
 

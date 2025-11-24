@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm6gn3w703mvq"
-path="res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"
+uid="uid://uyjinwy77raa"
+path="res://.godot/imported/Ak 47.png-338242b3d483147e80b4b2a2a7ca6a83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/Soverom.png"
-dest_files=["res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"]
+source_file="res://Destus Gamez Gun/Ak 47.png"
+dest_files=["res://.godot/imported/Ak 47.png-338242b3d483147e80b4b2a2a7ca6a83.ctex"]
 
 [params]
 

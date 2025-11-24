@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm6gn3w703mvq"
-path="res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://4kshpoqdlqp6"
+valid=false
 
 [deps]
 
-source_file="res://Bilder/Soverom.png"
-dest_files=["res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"]
+source_file="res://358-3582649_color-tier-weapons-for-top-down-shooter-graphics.png"
 
 [params]
 

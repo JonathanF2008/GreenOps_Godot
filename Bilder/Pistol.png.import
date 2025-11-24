@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm6gn3w703mvq"
-path="res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"
+uid="uid://doat2k5fy5fm7"
+path="res://.godot/imported/Pistol.png-2b7c823fbf9d4b7c1a8f98cbe51967d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/Soverom.png"
-dest_files=["res://.godot/imported/Soverom.png-1786ca4ab2f4a67686739996782eec62.ctex"]
+source_file="res://Bilder/Pistol.png"
+dest_files=["res://.godot/imported/Pistol.png-2b7c823fbf9d4b7c1a8f98cbe51967d9.ctex"]
 
 [params]
 
