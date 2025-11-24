@@ -8,12 +8,19 @@ radius = 3.0
 height = 6.0
 
 [node name="npc_bullet" type="RigidBody2D"]
+can_sleep = false
+lock_rotation = true
+contact_monitor = true
+max_contacts_reported = 1
 script = ExtResource("1_xbqcf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+use_parent_material = true
 shape = SubResource("CapsuleShape2D_08liu")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_pwf2g")
 region_enabled = true
 region_rect = Rect2(0, 12.1875, 31.09, 6.61243)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
