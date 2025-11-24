@@ -5,13 +5,17 @@
 [ext_resource type="PackedScene" uid="uid://c4hex3cw0yyhv" path="res://tscn/npc_bullet.tscn" id="3_dd0vh"]
 
 [node name="Node2D" type="Node2D"]
+position = Vector2(-1, 0)
+scale = Vector2(3, 3)
 
 [node name="TestPlayer" parent="." instance=ExtResource("1_d1wvp")]
-position = Vector2(-3, -68)
+position = Vector2(-8.33333, -88.3333)
+
+[node name="RigidBody2D" parent="." instance=ExtResource("3_dd0vh")]
+position = Vector2(8, -11.3333)
 
 [node name="Npcbody" parent="." instance=ExtResource("2_i2afp")]
 
-[node name="RigidBody2D" parent="." instance=ExtResource("3_dd0vh")]
-position = Vector2(54, -19)
-
+[editable path="TestPlayer"]
+[editable path="RigidBody2D"]
 [editable path="Npcbody"]
