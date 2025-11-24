@@ -1,10 +1,11 @@
-[gd_scene load_steps=14 format=4 uid="uid://dnjmexkghnlua"]
+[gd_scene load_steps=15 format=4 uid="uid://dnjmexkghnlua"]
 
 [ext_resource type="Texture2D" uid="uid://c8icjewii6fas" path="res://bilder/Oil Rig Int and Ext Tiles(1).png" id="1_nv8ik"]
 [ext_resource type="Texture2D" uid="uid://bdl2e40unvo4i" path="res://bilder/Oil Rig Int and Ext Tiles.png" id="1_yadi8"]
 [ext_resource type="Texture2D" uid="uid://cchrf2pdwytlo" path="res://bilder/Oil Rig Exterior Tiles.png" id="2_a8mui"]
 [ext_resource type="Texture2D" uid="uid://b4mj7gxf7bi32" path="res://bilder/Oil Rig Helipad.png" id="3_nv8ik"]
 [ext_resource type="Texture2D" uid="uid://bo5jrhjteb8oc" path="res://bilder/Oljetønner.png" id="4_a8mui"]
+[ext_resource type="Texture2D" uid="uid://bl2v5igdjpv46" path="res://Interior Entrance.png" id="6_s5h80"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7amuf"]
 texture = ExtResource("1_nv8ik")
@@ -219,3 +220,8 @@ shape = SubResource("RectangleShape2D_7amuf")
 [node name="Tønne3" type="CollisionShape2D" parent="."]
 position = Vector2(957, 257)
 shape = SubResource("RectangleShape2D_7amuf")
+
+[node name="InteriorEntrance" type="Sprite2D" parent="."]
+position = Vector2(1043.25, 526.25)
+scale = Vector2(1.882813, 1.882813)
+texture = ExtResource("6_s5h80")

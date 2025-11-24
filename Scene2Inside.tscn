@@ -395,7 +395,7 @@ texture = ExtResource("3_wtt45")
 region_enabled = true
 region_rect = Rect2(1, 36, 30, 23)
 
-[node name="Area2D2" type="Area2D" parent="."]
+[node name="Area2D2" type="StaticBody2D" parent="."]
 position = Vector2(79.75, 96.25)
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D2"]
