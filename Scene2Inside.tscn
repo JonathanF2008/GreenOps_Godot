@@ -366,190 +366,192 @@ texture = ExtResource("3_wtt45")
 region_enabled = true
 region_rect = Rect2(1, 36, 30, 23)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Area2D2" type="Area2D" parent="."]
 position = Vector2(79.75, 96.25)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(64, 0)
 shape = SubResource("RectangleShape2D_gwakc")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-position = Vector2(143.75, 96.25)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
 shape = SubResource("RectangleShape2D_gwakc")
 
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
-position = Vector2(208.75, 96.25)
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(129, 0)
 shape = SubResource("RectangleShape2D_gwakc")
 
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
-position = Vector2(342, 22)
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(262.25, -74.25)
 shape = SubResource("CircleShape2D_wtt45")
 
-[node name="CollisionShape2D5" type="CollisionShape2D" parent="."]
-position = Vector2(379, 22)
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(299.25, -74.25)
 shape = SubResource("CircleShape2D_wtt45")
 
-[node name="CollisionShape2D6" type="CollisionShape2D" parent="."]
-position = Vector2(379, 56)
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(299.25, -40.25)
 shape = SubResource("CircleShape2D_wtt45")
 
-[node name="CollisionShape2D8" type="CollisionShape2D" parent="."]
-position = Vector2(342, 56)
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(262.25, -40.25)
 shape = SubResource("CircleShape2D_wtt45")
 
-[node name="CollisionShape2D9" type="CollisionShape2D" parent="."]
-position = Vector2(342, 93)
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(262.25, -3.25)
 shape = SubResource("CircleShape2D_wtt45")
 
-[node name="CollisionShape2D7" type="CollisionShape2D" parent="."]
-position = Vector2(379, 93)
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(299.25, -3.25)
 shape = SubResource("CircleShape2D_wtt45")
 
-[node name="CollisionShape2D10" type="CollisionShape2D" parent="."]
-position = Vector2(41.5, 468.5)
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-38.25, 372.25)
 shape = SubResource("RectangleShape2D_1jf0g")
 
-[node name="CollisionShape2D11" type="CollisionShape2D" parent="."]
-position = Vector2(41.5, 543.5)
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-38.25, 447.25)
 shape = SubResource("RectangleShape2D_1jf0g")
 
-[node name="CollisionShape2D12" type="CollisionShape2D" parent="."]
-position = Vector2(41.5, 615.5)
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-38.25, 519.25)
 shape = SubResource("RectangleShape2D_1jf0g")
 
-[node name="CollisionShape2D13" type="CollisionShape2D" parent="."]
-position = Vector2(110.75, 589)
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(31, 492.75)
 shape = SubResource("RectangleShape2D_wtt45")
 
-[node name="CollisionShape2D18" type="CollisionShape2D" parent="."]
-position = Vector2(190.75, 590)
+[node name="CollisionShape2D18" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(111, 493.75)
 shape = SubResource("RectangleShape2D_wtt45")
 
-[node name="CollisionShape2D19" type="CollisionShape2D" parent="."]
-position = Vector2(269.75, 590)
+[node name="CollisionShape2D19" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(190, 493.75)
 shape = SubResource("RectangleShape2D_wtt45")
 
-[node name="CollisionShape2D14" type="CollisionShape2D" parent="."]
-position = Vector2(143.25, 600)
+[node name="CollisionShape2D14" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(63.5, 503.75)
 shape = SubResource("RectangleShape2D_d6uls")
 
-[node name="CollisionShape2D20" type="CollisionShape2D" parent="."]
-position = Vector2(223.25, 601)
+[node name="CollisionShape2D20" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(143.5, 504.75)
 shape = SubResource("RectangleShape2D_d6uls")
 
-[node name="CollisionShape2D21" type="CollisionShape2D" parent="."]
-position = Vector2(302.25, 601)
+[node name="CollisionShape2D21" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(222.5, 504.75)
 shape = SubResource("RectangleShape2D_d6uls")
 
-[node name="CollisionShape2D15" type="CollisionShape2D" parent="."]
-position = Vector2(52.125, 582.875)
+[node name="CollisionShape2D15" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-27.625, 486.625)
 shape = SubResource("RectangleShape2D_fr3nx")
 
-[node name="CollisionShape2D16" type="CollisionShape2D" parent="."]
-position = Vector2(53.125, 436.875)
+[node name="CollisionShape2D16" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-26.625, 340.625)
 shape = SubResource("RectangleShape2D_fr3nx")
 
-[node name="CollisionShape2D17" type="CollisionShape2D" parent="."]
-position = Vector2(53.125, 511.875)
+[node name="CollisionShape2D17" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-26.625, 415.625)
 shape = SubResource("RectangleShape2D_fr3nx")
 
-[node name="CollisionShape2D22" type="CollisionShape2D" parent="."]
-position = Vector2(468, 98)
+[node name="CollisionShape2D22" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(388.25, 1.75)
 shape = SubResource("RectangleShape2D_wdgq3")
 
-[node name="CollisionShape2D23" type="CollisionShape2D" parent="."]
-position = Vector2(551, 98)
+[node name="CollisionShape2D23" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(471.25, 1.75)
 shape = SubResource("RectangleShape2D_wdgq3")
 
-[node name="CollisionShape2D24" type="CollisionShape2D" parent="."]
-position = Vector2(548, 141)
+[node name="CollisionShape2D24" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(468.25, 44.75)
 shape = SubResource("RectangleShape2D_wdgq3")
 
-[node name="CollisionShape2D25" type="CollisionShape2D" parent="."]
-position = Vector2(468, 142)
+[node name="CollisionShape2D25" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(388.25, 45.75)
 shape = SubResource("RectangleShape2D_wdgq3")
 
-[node name="CollisionShape2D26" type="CollisionShape2D" parent="."]
-position = Vector2(467, 186)
+[node name="CollisionShape2D26" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(387.25, 89.75)
 shape = SubResource("RectangleShape2D_wdgq3")
 
-[node name="CollisionShape2D27" type="CollisionShape2D" parent="."]
-position = Vector2(549, 185)
+[node name="CollisionShape2D27" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(469.25, 88.75)
 shape = SubResource("RectangleShape2D_wdgq3")
 
-[node name="CollisionShape2D28" type="CollisionShape2D" parent="."]
-position = Vector2(549, 225)
+[node name="CollisionShape2D28" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(469.25, 128.75)
 shape = SubResource("RectangleShape2D_wdgq3")
 
-[node name="CollisionShape2D29" type="CollisionShape2D" parent="."]
-position = Vector2(467, 225)
+[node name="CollisionShape2D29" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(387.25, 128.75)
 shape = SubResource("RectangleShape2D_wdgq3")
 
-[node name="CollisionShape2D30" type="CollisionShape2D" parent="."]
-position = Vector2(410.25, 418)
+[node name="CollisionShape2D30" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(330.5, 321.75)
 shape = SubResource("RectangleShape2D_tsu2p")
 
-[node name="CollisionShape2D31" type="CollisionShape2D" parent="."]
-position = Vector2(411.25, 580)
+[node name="CollisionShape2D31" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(331.5, 483.75)
 shape = SubResource("RectangleShape2D_tsu2p")
 
-[node name="CollisionShape2D32" type="CollisionShape2D" parent="."]
-position = Vector2(572.25, 418)
+[node name="CollisionShape2D32" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(492.5, 321.75)
 shape = SubResource("RectangleShape2D_tsu2p")
 
-[node name="CollisionShape2D33" type="CollisionShape2D" parent="."]
-position = Vector2(591.25, 577)
+[node name="CollisionShape2D33" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(511.5, 480.75)
 shape = SubResource("RectangleShape2D_tsu2p")
 
-[node name="CollisionShape2D35" type="CollisionShape2D" parent="."]
-position = Vector2(484.5, 418.5)
+[node name="CollisionShape2D35" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(404.75, 322.25)
 shape = SubResource("CircleShape2D_gwakc")
 
-[node name="CollisionShape2D36" type="CollisionShape2D" parent="."]
-position = Vector2(646.5, 418.5)
+[node name="CollisionShape2D36" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(566.75, 322.25)
 shape = SubResource("CircleShape2D_gwakc")
 
-[node name="CollisionShape2D37" type="CollisionShape2D" parent="."]
-position = Vector2(484.5, 578.5)
+[node name="CollisionShape2D37" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(404.75, 482.25)
 shape = SubResource("CircleShape2D_gwakc")
 
-[node name="CollisionShape2D34" type="CollisionShape2D" parent="."]
-position = Vector2(-5, 316)
+[node name="CollisionShape2D34" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(-84.75, 219.75)
 shape = SubResource("RectangleShape2D_bwwev")
 
-[node name="CollisionShape2D38" type="CollisionShape2D" parent="."]
-position = Vector2(1154.5, 319.5)
+[node name="CollisionShape2D38" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(1074.75, 223.25)
 shape = SubResource("RectangleShape2D_bwwev")
 
-[node name="CollisionShape2D39" type="CollisionShape2D" parent="."]
-position = Vector2(573.5, -3.5)
+[node name="CollisionShape2D39" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(493.75, -99.75)
 shape = SubResource("RectangleShape2D_60jji")
 
-[node name="CollisionShape2D40" type="CollisionShape2D" parent="."]
-position = Vector2(572, 642)
+[node name="CollisionShape2D40" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(492.25, 545.75)
 shape = SubResource("RectangleShape2D_60jji")
 
-[node name="CollisionShape2D41" type="CollisionShape2D" parent="."]
-position = Vector2(175.5, 255)
+[node name="CollisionShape2D41" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(95.75, 158.75)
 shape = SubResource("RectangleShape2D_j42gg")
 
-[node name="CollisionShape2D43" type="CollisionShape2D" parent="."]
-position = Vector2(544, 383.5)
+[node name="CollisionShape2D43" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(464.25, 287.25)
 shape = SubResource("RectangleShape2D_q8nob")
 
-[node name="CollisionShape2D42" type="CollisionShape2D" parent="."]
-position = Vector2(127.75, 383.5)
+[node name="CollisionShape2D42" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(48, 287.25)
 shape = SubResource("RectangleShape2D_104j8")
 
-[node name="CollisionShape2D44" type="CollisionShape2D" parent="."]
-position = Vector2(351.25, 417)
+[node name="CollisionShape2D44" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(271.5, 320.75)
 shape = SubResource("RectangleShape2D_n76pc")
 
-[node name="CollisionShape2D45" type="CollisionShape2D" parent="."]
-position = Vector2(351.5, 576)
+[node name="CollisionShape2D45" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(271.75, 479.75)
 shape = SubResource("RectangleShape2D_vuolw")
 
-[node name="CollisionShape2D46" type="CollisionShape2D" parent="."]
-position = Vector2(417.75, 129)
+[node name="CollisionShape2D46" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(338, 32.75)
 shape = SubResource("RectangleShape2D_t0xl2")
 
-[node name="CollisionShape2D47" type="CollisionShape2D" parent="."]
-position = Vector2(672, 255.375)
+[node name="CollisionShape2D47" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(592.25, 159.125)
 shape = SubResource("RectangleShape2D_pb30q")
