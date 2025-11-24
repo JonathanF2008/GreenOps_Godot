@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw1y2vftrqgao"
-path="res://.godot/imported/Activist Female.png-b70031ed5fcabcf38ba23e2430a7324e.ctex"
+uid="uid://dxh2b3truabtd"
+path="res://.godot/imported/Oil Rig Helipad Stairs.png-4ddfda05334d854ac48890cdb4af5a73.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/Activist Female.png"
-dest_files=["res://.godot/imported/Activist Female.png-b70031ed5fcabcf38ba23e2430a7324e.ctex"]
+source_file="res://Bilder/Oil Rig Helipad Stairs.png"
+dest_files=["res://.godot/imported/Oil Rig Helipad Stairs.png-4ddfda05334d854ac48890cdb4af5a73.ctex"]
 
 [params]
 

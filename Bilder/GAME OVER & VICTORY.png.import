@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw1y2vftrqgao"
-path="res://.godot/imported/Activist Female.png-b70031ed5fcabcf38ba23e2430a7324e.ctex"
+uid="uid://b8bo8lmxjij5i"
+path="res://.godot/imported/GAME OVER & VICTORY.png-002a8b2c71fd11dc5a97054c9836bbfa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/Activist Female.png"
-dest_files=["res://.godot/imported/Activist Female.png-b70031ed5fcabcf38ba23e2430a7324e.ctex"]
+source_file="res://Bilder/GAME OVER & VICTORY.png"
+dest_files=["res://.godot/imported/GAME OVER & VICTORY.png-002a8b2c71fd11dc5a97054c9836bbfa.ctex"]
 
 [params]
 

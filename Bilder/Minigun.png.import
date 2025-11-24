@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bw1y2vftrqgao"
-path="res://.godot/imported/Activist Female.png-b70031ed5fcabcf38ba23e2430a7324e.ctex"
+uid="uid://cxgfk1pbol1da"
+path="res://.godot/imported/Minigun.png-4c28f8dccc9ef46e307dbe593ec4bb5c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bilder/Activist Female.png"
-dest_files=["res://.godot/imported/Activist Female.png-b70031ed5fcabcf38ba23e2430a7324e.ctex"]
+source_file="res://Bilder/Minigun.png"
+dest_files=["res://.godot/imported/Minigun.png-4c28f8dccc9ef46e307dbe593ec4bb5c.ctex"]
 
 [params]
 
