@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d2txcogk6ch26"
+path="res://.godot/imported/Revolver cocking.mp3-645981b6c81029809cdf565e844496e7.mp3str"
+
+[deps]
+
+source_file="res://Audio/Revolver cocking.mp3"
+dest_files=["res://.godot/imported/Revolver cocking.mp3-645981b6c81029809cdf565e844496e7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

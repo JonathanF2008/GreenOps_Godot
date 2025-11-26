@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://clpo1p1x85qqk"
+path="res://.godot/imported/Eksplosjon 1.mp3-8c2e648802780a6bd97cfa79de7929f9.mp3str"
+
+[deps]
+
+source_file="res://Audio/Eksplosjon 1.mp3"
+dest_files=["res://.godot/imported/Eksplosjon 1.mp3-8c2e648802780a6bd97cfa79de7929f9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
