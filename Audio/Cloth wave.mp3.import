@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dntmeqq13pfip"
+path="res://.godot/imported/Cloth wave.mp3-b9dd97ee6a5951465f8185de16d77297.mp3str"
+
+[deps]
+
+source_file="res://Audio/Cloth wave.mp3"
+dest_files=["res://.godot/imported/Cloth wave.mp3-b9dd97ee6a5951465f8185de16d77297.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
