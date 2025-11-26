@@ -19,7 +19,7 @@ func _physics_process(delta):
 
 func shoot():
 	var bullet = bullet_scene.instantiate()
-	bullet.global_position = global_position
+	bullet.global_position = Vector2(8, -11.333)
 
 	# Aim at player
 	var player = get_tree().get_first_node_in_group("test")
