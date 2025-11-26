@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8icjewii6fas"
-path="res://.godot/imported/Oil Rig Int and Ext Tiles(1).png-07d3c2386e2d0024d93e222da67d6844.ctex"
+path="res://.godot/imported/Oil Rig Int and Ext Tiles(1).png-c6e5dff58e77ddcb33e494b661daa55f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bilder/Oil Rig Int and Ext Tiles(1).png"
-dest_files=["res://.godot/imported/Oil Rig Int and Ext Tiles(1).png-07d3c2386e2d0024d93e222da67d6844.ctex"]
+source_file="res://Bilder/Oil Rig Int and Ext Tiles(1).png"
+dest_files=["res://.godot/imported/Oil Rig Int and Ext Tiles(1).png-c6e5dff58e77ddcb33e494b661daa55f.ctex"]
 
 [params]
 

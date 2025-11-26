@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ceuqy8t17vo0y"
-path="res://.godot/imported/Vann søl.png-94a975a37d7ba4e1102bc5c2a8b49369.ctex"
+path="res://.godot/imported/Vann søl.png-549d97bc9ed348cb3367705fdf64ed5d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bilder/Vann søl.png"
-dest_files=["res://.godot/imported/Vann søl.png-94a975a37d7ba4e1102bc5c2a8b49369.ctex"]
+source_file="res://Bilder/Vann søl.png"
+dest_files=["res://.godot/imported/Vann søl.png-549d97bc9ed348cb3367705fdf64ed5d.ctex"]
 
 [params]
 
