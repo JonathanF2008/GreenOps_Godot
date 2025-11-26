@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://o68vkobd3ipd"]
+
+[ext_resource type="Texture2D" uid="uid://ceuqy8t17vo0y" path="res://Bilder/Vann søl.png" id="1_dj0kp"]
+[ext_resource type="PackedScene" uid="uid://dv8v2pdfln23e" path="res://tscn/Miljøaktivist.tscn" id="2_3h6ss"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="VannSøl" type="Sprite2D" parent="."]
+position = Vector2(119, 146.5)
+scale = Vector2(12.7708, 10.2031)
+texture = ExtResource("1_dj0kp")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_3h6ss")]
+position = Vector2(609, 366)
