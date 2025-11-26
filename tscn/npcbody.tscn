@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=3 uid="uid://c2t2mkrqcooax"]
 
-[ext_resource type="Script" path="res://Script/npcbody.gd" id="1_06ot4"]
-[ext_resource type="Texture2D" uid="uid://bnx60yqaksamn" path="res://Bilder/Enemy Workers.png" id="2_aigrp"]
+[ext_resource type="Script" uid="uid://cbkl8yaviiy2x" path="res://Script/npcbody.gd" id="1_06ot4"]
+[ext_resource type="Texture2D" uid="uid://yvxmn2e8hm8w" path="res://Bilder/Enemy Workers.png" id="2_aigrp"]
 [ext_resource type="PackedScene" uid="uid://c4hex3cw0yyhv" path="res://tscn/npc_bullet.tscn" id="2_o4uos"]
-[ext_resource type="Texture2D" uid="uid://cypovxqrawvqe" path="res://Bilder/VåpenGodot-removebg-preview.png" id="3_omjuc"]
-[ext_resource type="Script" path="res://Script/special_collision.gd" id="4_greaa"]
+[ext_resource type="Script" uid="uid://dq00i4vwny1nl" path="res://Script/special_collision.gd" id="4_greaa"]
+[ext_resource type="Texture2D" uid="uid://cxgfk1pbol1da" path="res://Bilder/Minigun.png" id="4_xhjl0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dyx26"]
 size = Vector2(14, 14)
@@ -26,11 +26,12 @@ region_rect = Rect2(32, 0, 32, 32)
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(2, 3)
 
-[node name="VåpenGodot-removebg-preview" type="Sprite2D" parent="Node2D"]
-position = Vector2(6, -7)
-rotation = -1.5708
-scale = Vector2(0.06, 0.06)
-texture = ExtResource("3_omjuc")
+[node name="Minigun" type="Sprite2D" parent="Node2D"]
+z_index = -1
+position = Vector2(5, -9.000002)
+rotation = -1.5707964
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("4_xhjl0")
 
 [node name="Area2D" type="Area2D" parent="."]
 
