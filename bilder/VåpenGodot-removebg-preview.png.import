@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cypovxqrawvqe"
-path="res://.godot/imported/VåpenGodot-removebg-preview.png-f9b5cccba3aa08279a055440ced67946.ctex"
+path="res://.godot/imported/VåpenGodot-removebg-preview.png-723cd46380162757a736f121e536f416.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bilder/VåpenGodot-removebg-preview.png"
-dest_files=["res://.godot/imported/VåpenGodot-removebg-preview.png-f9b5cccba3aa08279a055440ced67946.ctex"]
+source_file="res://Bilder/VåpenGodot-removebg-preview.png"
+dest_files=["res://.godot/imported/VåpenGodot-removebg-preview.png-723cd46380162757a736f121e536f416.ctex"]
 
 [params]
 

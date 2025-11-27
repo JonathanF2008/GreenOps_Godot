@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://mg6afon1i6wc"]
+[gd_scene load_steps=9 format=4 uid="uid://21sr2rbjlfql"]
 
 [ext_resource type="Texture2D" uid="uid://de2ygg5ypihgj" path="res://terrainTiles_retina.png" id="1_orqbs"]
 [ext_resource type="PackedScene" uid="uid://ci0qw2w6r47i4" path="res://barrel_test.tscn" id="2_xjh5k"]

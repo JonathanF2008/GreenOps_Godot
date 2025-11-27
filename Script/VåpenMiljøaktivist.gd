@@ -5,7 +5,7 @@ func _process(delta):
 	rotation -= deg_to_rad(90)
 
 
-	if Input.is_action_just_pressed("ui_accept"):
+	if Input.is_action_just_pressed("Skyte_pistol"):
 		var instance = bullet.instantiate()
 		instance.global_position = Vector2(global_position)
 		get_tree().current_scene.add_child(instance)   

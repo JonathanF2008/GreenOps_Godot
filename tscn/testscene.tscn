@@ -1,9 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://c8fbslptj45dy"]
+[gd_scene load_steps=8 format=3 uid="uid://c8fbslptj45dy"]
 
 [ext_resource type="PackedScene" uid="uid://d1fyi3vdil7ms" path="res://tscn/test.tscn" id="1_d1wvp"]
 [ext_resource type="PackedScene" uid="uid://c2t2mkrqcooax" path="res://tscn/npcbody.tscn" id="2_i2afp"]
 [ext_resource type="PackedScene" uid="uid://c4hex3cw0yyhv" path="res://tscn/npc_bullet.tscn" id="3_dd0vh"]
 [ext_resource type="Texture2D" uid="uid://cv2hvp2kcj4wf" path="res://Bilder/Mainscreen bakgrunn.png" id="4_oqod4"]
+[ext_resource type="PackedScene" uid="uid://dv8v2pdfln23e" path="res://tscn/Miljøaktivist.tscn" id="5_btpqc"]
+[ext_resource type="PackedScene" uid="uid://cmgdjojkbywn8" path="res://tscn/BulletMiljøaktivist.tscn" id="6_jdbj2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oqod4"]
 size = Vector2(59.000015, 32.333336)
@@ -21,7 +23,7 @@ position = Vector2(208.00002, -144.66667)
 [node name="Npcbody" parent="." instance=ExtResource("2_i2afp")]
 
 [node name="walltest" type="StaticBody2D" parent="." groups=["test"]]
-position = Vector2(-130.33334, -105.33333)
+position = Vector2(2.3333435, -58.66666)
 
 [node name="MainscreenBakgrunn" type="Sprite2D" parent="walltest"]
 scale = Vector2(0.3, 0.3)
@@ -29,6 +31,12 @@ texture = ExtResource("4_oqod4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="walltest"]
 shape = SubResource("RectangleShape2D_oqod4")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("5_btpqc")]
+position = Vector2(-136.66667, -73)
+
+[node name="BulletMiljøaktivist" parent="." instance=ExtResource("6_jdbj2")]
+position = Vector2(201.66667, -123)
 
 [editable path="TestPlayer"]
 [editable path="RigidBody2D"]

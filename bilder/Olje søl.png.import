@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnllv3g3augjb"
-path="res://.godot/imported/Olje søl.png-d5cb0f88a792c36c0faa3c5b5f51a7a3.ctex"
+path="res://.godot/imported/Olje søl.png-2c386a14939f576e9315287a6f3a3113.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://bilder/Olje søl.png"
-dest_files=["res://.godot/imported/Olje søl.png-d5cb0f88a792c36c0faa3c5b5f51a7a3.ctex"]
+source_file="res://Bilder/Olje søl.png"
+dest_files=["res://.godot/imported/Olje søl.png-2c386a14939f576e9315287a6f3a3113.ctex"]
 
 [params]
 
