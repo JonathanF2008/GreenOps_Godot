@@ -41,3 +41,5 @@ position = Vector2(201.66667, -123)
 [editable path="TestPlayer"]
 [editable path="RigidBody2D"]
 [editable path="Npcbody"]
+[editable path="CharacterBody2D"]
+[editable path="BulletMiljøaktivist"]
