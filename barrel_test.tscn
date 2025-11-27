@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci0qw2w6r47i4"]
+
+[ext_resource type="Texture2D" uid="uid://i1855yucx5kp" path="res://barrel_tes.png" id="1_owmen"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2fdtl"]
+radius = 83.294655
+
+[node name="Barrel" type="Sprite2D"]
+texture = ExtResource("1_owmen")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_2fdtl")

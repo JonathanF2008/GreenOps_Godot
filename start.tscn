@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=4 uid="uid://cofkk4kup8wgo"]
 
-[ext_resource type="Script" path="res://start.gd" id="1_1n0d2"]
+[ext_resource type="Script" uid="uid://2p84lxv0rsxf" path="res://start.gd" id="1_1n0d2"]
 [ext_resource type="Texture2D" uid="uid://behfgfr422t21" path="res://Bilder/Menu Logo and Buttons.png" id="1_ots34"]
 [ext_resource type="Texture2D" uid="uid://cv2hvp2kcj4wf" path="res://Bilder/Mainscreen bakgrunn.png" id="1_qn1rc"]
-[ext_resource type="Script" path="res://keys.gd" id="3_y5hus"]
-[ext_resource type="Script" path="res://quit.gd" id="4_oiuna"]
+[ext_resource type="Script" uid="uid://cbgov4gjli56n" path="res://keys.gd" id="3_y5hus"]
+[ext_resource type="Script" uid="uid://prxxllhool0r" path="res://quit.gd" id="4_oiuna"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qn1rc"]
 texture = ExtResource("1_ots34")
@@ -58,5 +58,5 @@ tile_map_data = PackedByteArray("AAABAAMAAwAAAAAAAAABAAQAAwABAAAAAAABAAUAAwACAAA
 tile_set = SubResource("TileSet_1n0d2")
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
-[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
+[connection signal="pressed" from="Button3" to="Button3" method="_on_pressed"]
