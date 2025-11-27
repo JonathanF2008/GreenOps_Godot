@@ -7,8 +7,8 @@ var health = 100
 @onready var health_bar = $ProgressBar
 
 func _ready() -> void:
-	update_health(health)
-	
+	update_health(0)
+
 
 func _unhandled_input(event: InputEvent) -> void:
 	if !moving and Input.is_action_just_pressed("Bevege_Miljøaktivist"):
@@ -27,18 +27,17 @@ func _process(delta: float) -> void:
 
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
+	print("AAAA")
 	var away = (position - body.position).normalized()
-	position += away * 10.0   # move back a bit
 	moving = false
 
 
 func update_health(value):
 	health += value
 	health_bar.value = health
-	if health == 0:
+	print(health)
+	if health <= 0:
 		die()
 
 func die():
-	queue_free()
-
-	
+	get_tree().change_scene_to_file("res://start.tscn")

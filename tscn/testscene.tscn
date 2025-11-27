@@ -14,16 +14,17 @@ size = Vector2(59.000015, 32.333336)
 position = Vector2(-1, 0)
 scale = Vector2(3, 3)
 
-[node name="TestPlayer" parent="." instance=ExtResource("1_d1wvp")]
-position = Vector2(-17, -83.333336)
+[node name="TestPlayer" parent="." groups=["test"] instance=ExtResource("1_d1wvp")]
+position = Vector2(1.3333282, -67.33333)
 
 [node name="RigidBody2D" parent="." instance=ExtResource("3_dd0vh")]
-position = Vector2(208.00002, -144.66667)
+position = Vector2(201.99998, -131.33333)
 
 [node name="Npcbody" parent="." instance=ExtResource("2_i2afp")]
+position = Vector2(0, 0.33333325)
 
-[node name="walltest" type="StaticBody2D" parent="." groups=["test"]]
-position = Vector2(2.3333435, -58.66666)
+[node name="walltest" type="StaticBody2D" parent="." groups=["walls"]]
+position = Vector2(5.666667, -39.333332)
 
 [node name="MainscreenBakgrunn" type="Sprite2D" parent="walltest"]
 scale = Vector2(0.3, 0.3)
@@ -32,12 +33,8 @@ texture = ExtResource("4_oqod4")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="walltest"]
 shape = SubResource("RectangleShape2D_oqod4")
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("5_btpqc")]
-position = Vector2(-136.66667, -73)
+[node name="CharacterBody2D" parent="." groups=["test"] instance=ExtResource("5_btpqc")]
+position = Vector2(18.666672, -13.666672)
 
 [node name="BulletMiljøaktivist" parent="." instance=ExtResource("6_jdbj2")]
-position = Vector2(201.66667, -123)
-
-[editable path="TestPlayer"]
-[editable path="RigidBody2D"]
-[editable path="Npcbody"]
+position = Vector2(167.66667, -120.333336)

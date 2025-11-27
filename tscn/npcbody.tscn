@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://c2t2mkrqcooax"]
 
 [ext_resource type="Script" uid="uid://cbkl8yaviiy2x" path="res://Script/npcbody.gd" id="1_06ot4"]
-[ext_resource type="Texture2D" uid="uid://yvxmn2e8hm8w" path="res://Bilder/Enemy Workers.png" id="2_aigrp"]
+[ext_resource type="Texture2D" uid="uid://bnx60yqaksamn" path="res://Bilder/Enemy Workers.png" id="2_aigrp"]
 [ext_resource type="PackedScene" uid="uid://c4hex3cw0yyhv" path="res://tscn/npc_bullet.tscn" id="2_o4uos"]
 [ext_resource type="Script" uid="uid://dq00i4vwny1nl" path="res://Script/special_collision.gd" id="4_greaa"]
 [ext_resource type="Texture2D" uid="uid://cxgfk1pbol1da" path="res://Bilder/Minigun.png" id="4_xhjl0"]
@@ -9,7 +9,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dyx26"]
 size = Vector2(14, 14)
 
-[node name="Npcbody" type="CharacterBody2D"]
+[node name="Npcbody" type="CharacterBody2D" groups=["npc"]]
+collision_layer = 2
+collision_mask = 2
 script = ExtResource("1_06ot4")
 bullet_scene = ExtResource("2_o4uos")
 shoot_delay = 0.4
@@ -26,7 +28,7 @@ region_rect = Rect2(32, 0, 32, 32)
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(2, 3)
 
-[node name="Minigun" type="Sprite2D" parent="Node2D"]
+[node name="Minigun" type="Sprite2D" parent="Node2D" groups=["test"]]
 z_index = -1
 position = Vector2(5, -9.000002)
 rotation = -1.5707964
@@ -37,7 +39,8 @@ texture = ExtResource("4_xhjl0")
 
 [node name="specialCollision" type="CollisionPolygon2D" parent="Area2D"]
 position = Vector2(0, -33.0007)
-polygon = PackedVector2Array(0, 33.0007, 32, -56, 24, -64, 8, -72, -8, -72, -24, -64, -32, -56)
+polygon = PackedVector2Array(0, 33.0007, 32, -56, 26, -85.9993, 8, -103.9993, -9, -103.9993, -27, -86.9993, -32, -56)
 script = ExtResource("4_greaa")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

@@ -11,9 +11,16 @@ config_version=5
 [application]
 
 config/name="GreenOps"
+run/main_scene="uid://cofkk4kup8wgo"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://Bilder/icon.svg"
 <<<<<<<Updatedupstreamrun/main_scene="uid://630isg63uao4"
+
+[global_group]
+
+test=""
+walls=""
+npc=""
 
 [input]
 

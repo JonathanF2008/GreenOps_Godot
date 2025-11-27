@@ -16,9 +16,12 @@ script = ExtResource("1_xbqcf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 use_parent_material = true
+position = Vector2(0.099999905, -6.9500003)
 shape = SubResource("CapsuleShape2D_08liu")
 
 [node name="Bullet" type="Sprite2D" parent="."]
+position = Vector2(0.0999999, -6.95)
+rotation = 1.5707964
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("1_pwf2g")
 region_enabled = true

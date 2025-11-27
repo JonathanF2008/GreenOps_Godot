@@ -1,15 +1,24 @@
-[gd_scene load_steps=6 format=3 uid="uid://dv8v2pdfln23e"]
+[gd_scene load_steps=9 format=3 uid="uid://dv8v2pdfln23e"]
 
 [ext_resource type="Script" path="res://Script/MiljøaktivistMovement.gd" id="1_2ddt1"]
 [ext_resource type="Script" uid="uid://bohhp4ariuw5f" path="res://Script/VåpenMiljøaktivist.gd" id="2_lymw3"]
 [ext_resource type="Texture2D" uid="uid://bie4yecfgrrl6" path="res://Bilder/Activist Male.png" id="2_xdlaq"]
 [ext_resource type="Texture2D" uid="uid://cypovxqrawvqe" path="res://Bilder/VåpenGodot-removebg-preview.png" id="3_r6gc5"]
+[ext_resource type="Texture2D" uid="uid://bo5jrhjteb8oc" path="res://Bilder/Oljetønner.png" id="5_37nig"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0l1uj"]
 radius = 5.0
 height = 10.0
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_0rfsu"]
+atlas = ExtResource("5_37nig")
+region = Rect2(2, 106, 28, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kiddq"]
+atlas = ExtResource("5_37nig")
+region = Rect2(2, 74, 28, 12)
+
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["test"]]
 script = ExtResource("1_2ddt1")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
@@ -35,13 +44,23 @@ scale = Vector2(0.0691882, 0.0760569)
 texture = ExtResource("3_r6gc5")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(15, 15)
+zoom = Vector2(3.5, 3.5)
 
-[node name="ProgressBar" type="ProgressBar" parent="."]
-offset_left = -19.0
-offset_top = -9.0
-offset_right = 18.0
-offset_bottom = -5.0
-show_percentage = false
+[node name="ProgressBar" type="TextureProgressBar" parent="."]
+offset_left = -14.0
+offset_top = -24.0
+offset_right = 14.0
+offset_bottom = -12.0
+texture_under = SubResource("AtlasTexture_0rfsu")
+texture_progress = SubResource("AtlasTexture_kiddq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_0l1uj")
+
+[connection signal="child_entered_tree" from="." to="." method="_on_child_entered_tree"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

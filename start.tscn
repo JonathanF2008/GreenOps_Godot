@@ -28,8 +28,8 @@ sources/3 = SubResource("TileSetAtlasSource_qn1rc")
 script = ExtResource("1_1n0d2")
 
 [node name="MainscreenBakgrunn" type="Sprite2D" parent="."]
-position = Vector2(576.7778, 327.5)
-scale = Vector2(5.935185, 5.935185)
+position = Vector2(576.5, 324)
+scale = Vector2(6.0052085, 6.0000005)
 texture = ExtResource("1_qn1rc")
 
 [node name="Button" type="Button" parent="."]

@@ -1,21 +1,26 @@
 [gd_scene load_steps=4 format=3 uid="uid://cmgdjojkbywn8"]
 
-[ext_resource type="Script" uid="uid://b7u2sqby04jqn" path="res://Script/bulletMiljøaktivist.gd" id="1_hbh1x"]
+[ext_resource type="Script" path="res://Script/bulletMiljøaktivist.gd" id="1_hbh1x"]
 [ext_resource type="Texture2D" uid="uid://bwbu6gknt3aur" path="res://Bilder/Bullet.png" id="2_g5hph"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lgy3e"]
-size = Vector2(1, 0.5)
+size = Vector2(6, 3)
 
 [node name="BulletMiljøaktivist" type="RigidBody2D"]
 collision_layer = 2
 collision_mask = 2
+contact_monitor = true
+max_contacts_reported = 1
 script = ExtResource("1_hbh1x")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 5.96046e-08)
 rotation = 1.5708
-scale = Vector2(0.142886, 0.152666)
+scale = Vector2(1, 1.07)
 texture = ExtResource("2_g5hph")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_lgy3e")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
