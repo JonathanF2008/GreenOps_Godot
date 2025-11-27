@@ -9,13 +9,10 @@ var health = 100
 func _ready() -> void:
 	update_health(0)
 
-
 func _unhandled_input(event: InputEvent) -> void:
 	if !moving and Input.is_action_just_pressed("Bevege_Miljøaktivist"):
 		target_position = get_global_mouse_position()
 		moving = true
-
-
 
 func _process(delta: float) -> void:
 	if moving:

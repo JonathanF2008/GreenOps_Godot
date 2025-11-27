@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dia2a2cw8242r"
+path="res://.godot/imported/Green Ops Lobby Music.mp3-20affc3d461d30e805b28b1133e61e1b.mp3str"
+
+[deps]
+
+source_file="res://Audio/Green Ops Lobby Music.mp3"
+dest_files=["res://.godot/imported/Green Ops Lobby Music.mp3-20affc3d461d30e805b28b1133e61e1b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

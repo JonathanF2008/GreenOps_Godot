@@ -28,8 +28,8 @@ sources/3 = SubResource("TileSetAtlasSource_qn1rc")
 script = ExtResource("1_1n0d2")
 
 [node name="MainscreenBakgrunn" type="Sprite2D" parent="."]
-position = Vector2(576.5, 324)
-scale = Vector2(6.0052085, 6.0000005)
+position = Vector2(961.7229, 540.5)
+scale = Vector2(10.017947, 10.009259)
 texture = ExtResource("1_qn1rc")
 
 [node name="Button" type="Button" parent="."]
@@ -37,6 +37,7 @@ offset_left = 86.0
 offset_top = 349.0
 offset_right = 155.0
 offset_bottom = 389.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Button2" type="Button" parent="."]
 offset_left = 83.0
@@ -44,6 +45,7 @@ offset_top = 452.0
 offset_right = 157.0
 offset_bottom = 492.0
 script = ExtResource("3_y5hus")
+metadata/_edit_use_anchors_ = true
 
 [node name="Button3" type="Button" parent="."]
 offset_left = 82.0
@@ -51,6 +53,7 @@ offset_top = 558.0
 offset_right = 158.0
 offset_bottom = 599.0
 script = ExtResource("4_oiuna")
+metadata/_edit_use_anchors_ = true
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 scale = Vector2(2.5, 3.285)

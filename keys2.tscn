@@ -1,10 +1,52 @@
-[gd_scene load_steps=2 format=3 uid="uid://cu2lgilvubcpp"]
+[gd_scene load_steps=4 format=3 uid="uid://cu2lgilvubcpp"]
 
 [ext_resource type="Texture2D" uid="uid://dknyvmqpax7f7" path="res://Bilder/Controls.png" id="1_41jvc"]
+[ext_resource type="Texture2D" uid="uid://cs48hjnvnq3ks" path="res://Text for controls.png" id="2_6jark"]
+[ext_resource type="Script" uid="uid://dh83ajy4xlv6a" path="res://backbutton.gd" id="3_ck5ss"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(499, 292)
-scale = Vector2(10.75, 10.75)
+position = Vector2(-52.385452, -6.868431)
+scale = Vector2(-2.9759092, 1.2771093)
 texture = ExtResource("1_41jvc")
+
+[node name="TextForControls" type="Sprite2D" parent="."]
+position = Vector2(59.614555, 29.131584)
+scale = Vector2(3.1818118, 6.949995)
+texture = ExtResource("2_6jark")
+region_enabled = true
+region_rect = Rect2(4, 13, 23, 5)
+
+[node name="TextForControls2" type="Sprite2D" parent="."]
+position = Vector2(-29.885452, 31.256577)
+scale = Vector2(4.3, 6.7500014)
+texture = ExtResource("2_6jark")
+region_enabled = true
+region_rect = Rect2(48, 13, 10, 5)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(55.614548, -6.868431)
+rotation = 3.1415927
+scale = Vector2(-3.0526326, -1.3207235)
+texture = ExtResource("1_41jvc")
+
+[node name="TextForControls3" type="Sprite2D" parent="."]
+position = Vector2(-72.51045, 30.756569)
+scale = Vector2(3.972223, 6.9500027)
+texture = ExtResource("2_6jark")
+region_enabled = true
+region_rect = Rect2(37, 13, 9, 5)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
+
+[node name="Button" type="Button" parent="."]
+offset_left = -133.0
+offset_top = -68.0
+offset_right = -110.0
+offset_bottom = -37.0
+text = "<--"
+script = ExtResource("3_ck5ss")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
