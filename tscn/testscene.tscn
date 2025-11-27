@@ -21,7 +21,7 @@ position = Vector2(208.00002, -144.66667)
 [node name="Npcbody" parent="." instance=ExtResource("2_i2afp")]
 
 [node name="walltest" type="StaticBody2D" parent="." groups=["test"]]
-position = Vector2(-130.33334, -105.33333)
+position = Vector2(-146.33333, -67)
 
 [node name="MainscreenBakgrunn" type="Sprite2D" parent="walltest"]
 scale = Vector2(0.3, 0.3)
