@@ -680,7 +680,7 @@ position = Vector2(369, -617)
 position = Vector2(413, -619)
 
 [node name="Npcbody" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(335, 398)
+position = Vector2(336, 403)
 rotation = -1.813397
 
 [node name="Npcbody2" parent="." instance=ExtResource("12_xlhan")]
@@ -688,18 +688,18 @@ position = Vector2(185, 411)
 rotation = 1.6842427
 
 [node name="Npcbody3" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(303.00006, 566.00006)
+position = Vector2(299.00003, 560)
 rotation = -0.36128315
 
 [node name="Npcbody4" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(223, 563)
+position = Vector2(213, 561)
 
 [node name="Npcbody5" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(142.99997, 564.99994)
+position = Vector2(134.00002, 557)
 rotation = 0.38920844
 
 [node name="Npcbody6" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(76.99999, 467.00003)
+position = Vector2(84, 469.00003)
 rotation = 1.1868238
 
 [node name="Npcbody7" parent="." instance=ExtResource("12_xlhan")]
@@ -715,7 +715,7 @@ position = Vector2(24, 240)
 rotation = 1.282817
 
 [node name="Npcbody10" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(505, 554)
+position = Vector2(498, 555.00006)
 rotation = -0.64751714
 
 [node name="Npcbody11" parent="." instance=ExtResource("12_xlhan")]
@@ -723,11 +723,11 @@ position = Vector2(364, 552)
 rotation = 0.23561946
 
 [node name="Npcbody12" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(518, 406)
+position = Vector2(518.00006, 434)
 rotation = 3.3684855
 
 [node name="Npcbody13" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(624, 432)
+position = Vector2(630, 442.00003)
 rotation = 2.3300145
 
 [node name="Npcbody14" parent="." instance=ExtResource("12_xlhan")]
@@ -776,7 +776,7 @@ position = Vector2(472, 205)
 rotation = 1.6842427
 
 [node name="Npcbody26" parent="." instance=ExtResource("12_xlhan")]
-position = Vector2(543, 249)
+position = Vector2(559, 250.00002)
 rotation = 4.66352
 
 [node name="Npcbody27" parent="." instance=ExtResource("12_xlhan")]
