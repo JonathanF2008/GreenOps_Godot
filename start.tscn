@@ -48,6 +48,7 @@ script = ExtResource("3_y5hus")
 metadata/_edit_use_anchors_ = true
 
 [node name="Button3" type="Button" parent="."]
+texture_filter = 1
 offset_left = 82.0
 offset_top = 558.0
 offset_right = 158.0

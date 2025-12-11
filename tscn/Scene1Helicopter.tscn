@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=4 uid="uid://dnjmexkghnlua"]
+[gd_scene load_steps=22 format=4 uid="uid://dnjmexkghnlua"]
 
 [ext_resource type="Texture2D" uid="uid://c8icjewii6fas" path="res://Bilder/Oil Rig Int and Ext Tiles(1).png" id="1_pnymd"]
 [ext_resource type="Texture2D" uid="uid://bdl2e40unvo4i" path="res://Bilder/Oil Rig Int and Ext Tiles.png" id="2_3hjw5"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://dv8v2pdfln23e" path="res://tscn/Miljøaktivist.tscn" id="8_tcfhf"]
 [ext_resource type="PackedScene" uid="uid://cmgdjojkbywn8" path="res://tscn/BulletMiljøaktivist.tscn" id="9_ub80o"]
 [ext_resource type="PackedScene" uid="uid://c4hex3cw0yyhv" path="res://tscn/npc_bullet.tscn" id="10_v6fjx"]
+[ext_resource type="Script" uid="uid://daqwxo37ov02g" path="res://tscn/kills.gd" id="11_3hjw5"]
 [ext_resource type="PackedScene" uid="uid://c2t2mkrqcooax" path="res://tscn/npcbody.tscn" id="11_7eki6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7amuf"]
@@ -169,8 +170,8 @@ scale = Vector2(3.1354165, 3.1458333)
 texture = ExtResource("4_1cepw")
 
 [node name="Sprite2D" type="Sprite2D" parent="TileMapLayer"]
-position = Vector2(957, 257)
-rotation = 1.5707964
+position = Vector2(620, 482)
+rotation = -0.65449846
 scale = Vector2(1.7870331, 2.4608326)
 texture = ExtResource("5_c2fou")
 region_enabled = true
@@ -248,11 +249,20 @@ position = Vector2(-192, -130)
 shape = SubResource("RectangleShape2D_7amuf")
 
 [node name="Tønne3" type="CollisionShape2D" parent="TileMapLayer/StaticBody2D"]
-position = Vector2(-192, -73)
+position = Vector2(-529.00006, 151.99997)
+rotation = 0.9250245
 shape = SubResource("RectangleShape2D_7amuf")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("8_tcfhf")]
 position = Vector2(263, 234)
+
+[node name="Kills" type="Label" parent="CharacterBody2D"]
+offset_left = 210.0
+offset_top = 131.0
+offset_right = 305.0
+offset_bottom = 154.0
+text = "Kills: 0"
+script = ExtResource("11_3hjw5")
 
 [node name="BulletMiljøaktivist" parent="." instance=ExtResource("9_ub80o")]
 position = Vector2(268, 226)

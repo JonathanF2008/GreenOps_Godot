@@ -7,33 +7,32 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-52.385452, -6.868431)
-scale = Vector2(-2.9759092, 1.2771093)
+position = Vector2(-78, 9)
+scale = Vector2(-3, 3)
 texture = ExtResource("1_41jvc")
 
 [node name="TextForControls" type="Sprite2D" parent="."]
-position = Vector2(59.614555, 29.131584)
-scale = Vector2(3.1818118, 6.949995)
+position = Vector2(90, -53)
+scale = Vector2(6, 6.95)
 texture = ExtResource("2_6jark")
 region_enabled = true
 region_rect = Rect2(4, 13, 23, 5)
 
 [node name="TextForControls2" type="Sprite2D" parent="."]
-position = Vector2(-29.885452, 31.256577)
-scale = Vector2(4.3, 6.7500014)
+position = Vector2(-47, -53)
+scale = Vector2(6, 6.75)
 texture = ExtResource("2_6jark")
 region_enabled = true
 region_rect = Rect2(48, 13, 10, 5)
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(55.614548, -6.868431)
-rotation = 3.1415927
-scale = Vector2(-3.0526326, -1.3207235)
+position = Vector2(90, 11)
+scale = Vector2(3, 3)
 texture = ExtResource("1_41jvc")
 
 [node name="TextForControls3" type="Sprite2D" parent="."]
-position = Vector2(-72.51045, 30.756569)
-scale = Vector2(3.972223, 6.9500027)
+position = Vector2(-120, -53)
+scale = Vector2(6, 6.95)
 texture = ExtResource("2_6jark")
 region_enabled = true
 region_rect = Rect2(37, 13, 9, 5)
@@ -42,10 +41,10 @@ region_rect = Rect2(37, 13, 9, 5)
 zoom = Vector2(4, 4)
 
 [node name="Button" type="Button" parent="."]
-offset_left = -133.0
-offset_top = -68.0
-offset_right = -110.0
-offset_bottom = -37.0
+offset_left = -219.0
+offset_top = -119.0
+offset_right = -191.0
+offset_bottom = -88.0
 text = "<--"
 script = ExtResource("3_ck5ss")
 
